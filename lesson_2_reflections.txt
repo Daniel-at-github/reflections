@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+    * It appears one .git folder.
+    * You need it to store git history and state information
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+    * It's reflects a state of the file
+    * It offer a way to tag files in various steps
