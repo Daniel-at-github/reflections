@@ -9,3 +9,6 @@ Why might you want to always pull changes manually rather than having Git automa
     * To share only when your commit HEAD reachs certain conditions (tested, completeness, ...)
     * To commit offline
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+    off-line availability
