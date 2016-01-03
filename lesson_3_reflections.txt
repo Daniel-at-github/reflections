@@ -6,8 +6,8 @@ When would you want to use a remote repository rather than keeping all your work
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
-    * To share only when your commit HEAD reachs certain conditions (tested, completeness, ...)
-    * To commit offline
+    * To share only when your commit HEAD reaches certain conditions (tested, completeness, ...)
+    * To commit off-line
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
@@ -18,3 +18,10 @@ How would you collaborate without using Git or GitHub? What would be easier, and
     * Mercurial and bitbucket
     * No cvs? Then tar files and diff
     It will be harder and tedious.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+    * When collaborating with others, to compartmentalize your contribution.
+    * If you want to differentiate development, testing, staging and production.
+    Benefits of only one branch: Less work in commit process.
+    Benefits of separate branches: Isolated lines of work, easy to identify sets of changes.
